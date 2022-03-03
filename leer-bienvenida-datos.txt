@@ -1,0 +1,51 @@
+Hola bienvenidos, les dejé un comprimido, en caso de que no sepas como abrir el archivo te dejo aquí el código dentro del main:
+mi correo austry.castillo@educacionit.com
+
+
+
+		System.out.println("Hola juernes");
+		// variables: double, float, int, short, byte, long, char, boolean,String
+		int numero = 251;
+		System.out.println(numero);
+		numero = 599;
+		System.out.println(numero);
+		String nombre = "Austry";
+		// constantes
+		final double IVA = 2.2;
+		System.out.println(IVA);
+		// operaciones: + - * / % < > <= >= != == ++ --
+		int a = 450;
+		int b = 600;
+		System.out.println(a == b);
+		a++;
+		System.out.println(a);
+		a += 1000;// a = a + 1000;
+		System.out.println(a);
+		System.out.println(7 % 2);// resto de la división
+		// condicionales: if, if else, switch
+		if (a > b) {
+			System.out.println("Si es mayor");
+		}
+		/*
+		 * tabla de la verdad true && true = true false && true = false true && false =
+		 * false false && false = false false || false = false true || false = true
+		 * false || true = true true || true = true
+		 */
+
+		if (a > b && a == b) {
+			System.out.println("si estoy en el if");
+			if(a > b)
+				System.out.println("si es mayor");
+		}else {
+			System.out.println("estoy en el else");
+		}
+		/*
+		 boliche (permite personas entre 18 y 25 años)
+		 - mostrar bienvenido si puede acceder
+		 - decir la razón en caso de no poder pasar
+		 - si tengo 22 bebida gratis!
+		 * */
+		
+		
+		
+		
